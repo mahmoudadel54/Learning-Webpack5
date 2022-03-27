@@ -1,0 +1,1 @@
+console.log(123),document.getElementById("btn").addEventListener("click",(()=>console.log("Hello Webpack")));
