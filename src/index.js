@@ -4,6 +4,9 @@ var name = "asdad"
 let btn = document.getElementById("btn");
 btn.addEventListener("click",()=>console.log("Hello Webpack"))
 
+/**
+ * Trying to import image without using any loaders to handle images
+ */
 //if there is no config file and handle images with some loader -> gives an error in running webpack
 let imgTag = document.createElement('img');
 imgTag.src=`${Img}`;            
