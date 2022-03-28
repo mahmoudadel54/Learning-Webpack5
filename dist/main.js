@@ -1,1 +1,1 @@
-console.log(123),document.getElementById("btn").addEventListener("click",(()=>console.log("Hello Webpack")));
+(()=>{var o={790:o=>{o.exports={log:o=>console.log(o)}}},r={};(function e(t){var l=r[t];if(void 0!==l)return l.exports;var p=r[t]={exports:{}};return o[t](p,p.exports,e),p.exports})(790).log("Hello webpack 5")})();
