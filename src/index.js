@@ -1,5 +1,4 @@
- const mod = require('./other/other');
+//use lodash library here in index.js
+const _ = require('lodash');
 
-mod.log("Hello webpack 5 from other.js")
-
-console.log("hello in index.js");
+console.log(_.join(['Hello','Mahmoud', 'Adel', 'in index.js file'],' '));
